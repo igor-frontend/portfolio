@@ -18,7 +18,7 @@ function Hero() {
             <h1>{name}</h1>
             <section>
                 <h2>Hello there, I am <em className="green">Igor,</em> a passionate <em className="red">Frontend Developer</em> specializing in Javascript, HTML, CSS, and <em className="blue">React.js</em>.</h2>
-                <img id="img"src="/foto.webp" alt="Me" />
+                <img id="img"src={`${process.env.PUBLIC_URL}/foto.webp`} alt="Me" />
             </section>
             <section id="email">
                 <textarea id="text-box" readonly>igorcamponotus@gmail.com</textarea>
@@ -102,7 +102,7 @@ function Hero() {
                 <h1>Projects</h1>
             </section>
             <div id="portfolio">
-                <img  alt="lastportfolio"className="img"src="/portfolio.webp"></img>
+                <img  alt="lastportfolio"className="img"src={`${process.env.PUBLIC_URL}/portfolio.webp`}></img>
                 <h1>Last portfolio</h1>
                 <p>
                     My last <em className="green">portfolio</em> is one of my projects.
@@ -110,7 +110,7 @@ function Hero() {
 
             </div>
             <div className="responsive">
-                <img  alt="a responsive web"className="img"src="/responsive.webp"></img>
+                <img  alt="a responsive web"className="img"src={`${process.env.PUBLIC_URL}/responsive.webp`}></img>
                 <h1>Responsive web template</h1>
                 <p>
                     A simple template <em className="red">responsive</em> website available on my <a target="_blank"href="https://github.com/igor-helloworld/simplistic-HTML5-responsive-web-Design"id="link">github.</a>
