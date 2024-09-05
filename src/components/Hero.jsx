@@ -22,7 +22,7 @@ function Hero() {
             </section>
             <section id="email">
                 <textarea id="text-box" readonly>igorcamponotus@gmail.com</textarea>
-                <a className="a"  target="_blank" rel="noopener noreferrer"href="https://github.com/igor-helloworld" >GitHub</a>
+                <a className="a"  target="_blank" rel="noopener noreferrer"href="https://github.com/igor-frontend" >GitHub</a>
                 <button onClick={handlePrint} className="a" id="button">Print cv</button>
 
             </section>
